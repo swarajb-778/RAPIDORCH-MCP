@@ -1,4 +1,7 @@
-GITHUB_PERSONAL_ACCESS_TOKEN=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 npx -y @modelcontextprotocol/server-github
+GITHUB_PERSONAL_ACCESS_TOKEN=${GITHUB_TOKEN} npx -y @modelcontextprotocol/server-github
+
+# Usage: GITHUB_TOKEN=your_token_here ./script.sh
+# Or set GITHUB_TOKEN as an environment variable
 
 
 
